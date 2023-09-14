@@ -1,9 +1,3 @@
-//
-//  ReusableViewsApp.swift
-//  ReusableViews
-//
-//  Created by Lynda Chiwetelu on 10.09.23.
-//
 
 import SwiftUI
 
@@ -11,7 +5,7 @@ import SwiftUI
 struct ReusableViewsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStackView()
         }
     }
 }

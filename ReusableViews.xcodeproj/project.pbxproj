@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		7812CB002AAD92F800B37736 /* ReusableViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7812CAFF2AAD92F800B37736 /* ReusableViewsApp.swift */; };
-		7812CB022AAD92F800B37736 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7812CB012AAD92F800B37736 /* ContentView.swift */; };
 		7812CB042AAD92F900B37736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7812CB032AAD92F900B37736 /* Assets.xcassets */; };
 		7812CB072AAD92F900B37736 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7812CB062AAD92F900B37736 /* Preview Assets.xcassets */; };
+		7812CB0E2AAD930B00B37736 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7812CB0D2AAD930B00B37736 /* NavigationStackView.swift */; };
+		7812CB102AAD934300B37736 /* PoloMakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7812CB0F2AAD934300B37736 /* PoloMakerView.swift */; };
+		7812CB122AAD93C200B37736 /* PoloListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7812CB112AAD93C200B37736 /* PoloListView.swift */; };
+		7812CB142AAE2F5100B37736 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7812CB132AAE2F5100B37736 /* CircleView.swift */; };
+		7812CB162AAE34D900B37736 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7812CB152AAE34D900B37736 /* ButtonView.swift */; };
+		7812CB182AAE379F00B37736 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7812CB172AAE379F00B37736 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7812CAFC2AAD92F800B37736 /* ReusableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7812CAFF2AAD92F800B37736 /* ReusableViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewsApp.swift; sourceTree = "<group>"; };
-		7812CB012AAD92F800B37736 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7812CB032AAD92F900B37736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7812CB062AAD92F900B37736 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7812CB0D2AAD930B00B37736 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		7812CB0F2AAD934300B37736 /* PoloMakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoloMakerView.swift; sourceTree = "<group>"; };
+		7812CB112AAD93C200B37736 /* PoloListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoloListView.swift; sourceTree = "<group>"; };
+		7812CB132AAE2F5100B37736 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		7812CB152AAE34D900B37736 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7812CB172AAE379F00B37736 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,13 @@
 		7812CAFE2AAD92F800B37736 /* ReusableViews */ = {
 			isa = PBXGroup;
 			children = (
+				7812CB112AAD93C200B37736 /* PoloListView.swift */,
+				7812CB0F2AAD934300B37736 /* PoloMakerView.swift */,
 				7812CAFF2AAD92F800B37736 /* ReusableViewsApp.swift */,
-				7812CB012AAD92F800B37736 /* ContentView.swift */,
+				7812CB172AAE379F00B37736 /* BackgroundView.swift */,
+				7812CB152AAE34D900B37736 /* ButtonView.swift */,
+				7812CB0D2AAD930B00B37736 /* NavigationStackView.swift */,
+				7812CB132AAE2F5100B37736 /* CircleView.swift */,
 				7812CB032AAD92F900B37736 /* Assets.xcassets */,
 				7812CB052AAD92F900B37736 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7812CB022AAD92F800B37736 /* ContentView.swift in Sources */,
+				7812CB122AAD93C200B37736 /* PoloListView.swift in Sources */,
+				7812CB142AAE2F5100B37736 /* CircleView.swift in Sources */,
+				7812CB162AAE34D900B37736 /* ButtonView.swift in Sources */,
+				7812CB182AAE379F00B37736 /* BackgroundView.swift in Sources */,
+				7812CB0E2AAD930B00B37736 /* NavigationStackView.swift in Sources */,
 				7812CB002AAD92F800B37736 /* ReusableViewsApp.swift in Sources */,
+				7812CB102AAD934300B37736 /* PoloMakerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
